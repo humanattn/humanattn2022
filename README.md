@@ -45,7 +45,7 @@ You may need to change the directories inside train.py to read in the q90data as
 
 ## Step 6: Predictions
 ```
-python3 predict.py /path/to/model/
+python3 predict.py /path/to/model/ --with-graph --with-biodats=biodats_q90_astgnn.pkl
 ```
 
 **gpu=X can be used with any of these scripts to make use of gpu instead of cpu depending on availability, we used a titan rtx 24gb to train these models with tensorflow 2.4**
